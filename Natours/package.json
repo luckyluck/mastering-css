@@ -4,11 +4,13 @@
     "description": "Landing page for natours",
     "main": "index.js",
     "scripts": {
+        "start": "live-server ./ --watch",
         "compile:sass": "node-sass sass/main.scss css/style.css -w"
     },
     "author": "",
     "license": "ISC",
     "devDependencies": {
+        "live-server": "^1.2.0",
         "node-sass": "^4.9.2"
     }
 }
